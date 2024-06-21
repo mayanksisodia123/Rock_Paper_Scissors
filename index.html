@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock-paper-scissor</title>
-    <script src="script.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="grid-container">
+			<div id="header">
+				<p>Rock Paper Scissors</p>
+			</div>
+			<div id="scoreboard">
+				<h2 class="score" id="player-score">Player: 0</h2>
+				<h2 class="score" id="computer-score">Computer: 0</h2>
+			</div>
+			<div id="buttons">
+				<div id="player-buttons">
+					<button class="select-btns" id="btn-rock">✊</button>
+					<button class="select-btns" id="btn-paper">🤚</button>
+					<button class="select-btns" id="btn-scissors">✌️</button>
+				</div>
+				<div id="computer-buttons">
+					<button class="select-comp" id="comp-rock">✊</button>
+					<button class="select-comp" id="comp-paper">🤚</button>
+					<button class="select-comp" id="comp-scissors">✌️</button>
+				</div>
+			</div>
+			<div id="round-parent"></div>
+		</div>
 
-</head>
-<body>
-    
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>
